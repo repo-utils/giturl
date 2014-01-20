@@ -1,0 +1,49 @@
+{
+  "name": "giturl",
+  "version": "0.0.0",
+  "description": "Transfer git url to web url",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test-all"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "giturl/lib"
+    },
+    "travis-cov": {
+      "threshold": 100
+    }
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "autod": "*",
+    "contributors": "*",
+    "should": "*",
+    "blanket": "*",
+    "travis-cov": "*",
+    "cov": "*",
+    "coveralls": "*",
+    "mocha-lcov-reporter": "*",
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/fengmk2/giturl",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fengmk2/giturl.git",
+    "web": "https://github.com/fengmk2/giturl"
+  },
+  "bugs": {
+    "url": "https://github.com/fengmk2/giturl/issues",
+    "email": "fengmk2@gmail.com"
+  },
+  "keywords": [
+    "giturl", "git", "github", "gitlab", "url"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)",
+  "license": "MIT"
+}
