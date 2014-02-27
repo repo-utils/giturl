@@ -34,5 +34,10 @@ describe('giturl.test.js', function () {
       giturl.parse('git@gitcafe.com:fengmk2/cnpm.git').should.equal('https://gitcafe.com/fengmk2/cnpm');
       giturl.parse('git@gist.github.com:3135914.git').should.equal('https://gist.github.com/3135914');
     });
+
+    it('should parse not git url', function () {
+      giturl.parse('http://bauer-information-technology.com/').should.eql('http://bauer-information-technology.com/');
+      giturl.parse('').should.eql('');
+    });
   });
 });
