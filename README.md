@@ -1,11 +1,15 @@
 giturl
 =======
 
-[![Build Status](https://secure.travis-ci.org/fengmk2/giturl.png)](http://travis-ci.org/fengmk2/giturl) [![Coverage Status](https://coveralls.io/repos/fengmk2/giturl/badge.png)](https://coveralls.io/r/fengmk2/giturl) [![Dependency Status](https://gemnasium.com/fengmk2/giturl.png)](https://gemnasium.com/fengmk2/giturl)
+[![Build Status](https://secure.travis-ci.org/repo-utils/giturl.png)](http://travis-ci.org/repo-utils/giturl)
+
+[![Coverage Status](https://coveralls.io/repos/repo-utils/giturl/badge.png)](https://coveralls.io/r/repo-utils/giturl)
+
+[![Dependency Status](https://gemnasium.com/repo-utils/giturl.png)](https://gemnasium.com/repo-utils/giturl)
 
 [![NPM](https://nodei.co/npm/giturl.png?downloads=true&stars=true)](https://nodei.co/npm/giturl/)
 
-![logo](https://raw.github.com/fengmk2/giturl/master/logo.png)
+![logo](https://raw.github.com/repo-utils/giturl/master/logo.png)
 
 Transfer git url to web url.
 
@@ -40,6 +44,9 @@ giturl.parse('git@github.com:cnpm/cnpm.git');
 
 giturl.parse('git@gitcafe.com:fengmk2/cnpm.git');
 // => http://gitcafe.com/fengmk2/cnpm
+
+giturl.parse('http://github.com/component/emitter/archive/1.0.1.tar.gz')
+// => https://github.com/component/emitter
 ```
 
 ## License

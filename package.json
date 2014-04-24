@@ -19,23 +19,24 @@
   },
   "devDependencies": {
     "autod": "*",
-    "contributors": "*",
-    "should": "*",
     "blanket": "*",
-    "travis-cov": "*",
+    "contributors": "*",
     "cov": "*",
     "coveralls": "*",
+    "jshint": "*",
+    "mocha": "*",
     "mocha-lcov-reporter": "*",
-    "mocha": "*"
+    "should": "3.3.1",
+    "travis-cov": "*"
   },
-  "homepage": "https://github.com/fengmk2/giturl",
+  "homepage": "https://github.com/repo-utils/giturl",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fengmk2/giturl.git",
-    "web": "https://github.com/fengmk2/giturl"
+    "url": "git://github.com/repo-utils/giturl.git",
+    "web": "https://github.com/repo-utils/giturl"
   },
   "bugs": {
-    "url": "https://github.com/fengmk2/giturl/issues",
+    "url": "https://github.com/repo-utils/giturl/issues",
     "email": "fengmk2@gmail.com"
   },
   "keywords": [

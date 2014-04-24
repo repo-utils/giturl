@@ -6,6 +6,9 @@ MOCHA_OPTS =
 install:
 	@npm install --registry=http://registry.cnpmjs.org
 
+jshint: install
+	@./node_modules/.bin/jshint .
+
 test: install
 	@NODE_ENV=test ./node_modules/.bin/mocha \
 		--reporter $(REPORTER) \
@@ -13,7 +16,7 @@ test: install
 		$(MOCHA_OPTS) \
 		$(TESTS)
 
-test-cov:
+test-cov cov:
 	@$(MAKE) test MOCHA_OPTS='--require blanket' REPORTER=html-cov | ./node_modules/.bin/cov
 
 test-coveralls: test
@@ -30,4 +33,3 @@ contributors: install
 	@./node_modules/.bin/contributors -f plain -o AUTHORS
 
 .PHONY: test
-

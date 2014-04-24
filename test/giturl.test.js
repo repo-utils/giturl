@@ -39,5 +39,23 @@ describe('giturl.test.js', function () {
       giturl.parse('http://bauer-information-technology.com/').should.eql('http://bauer-information-technology.com/');
       giturl.parse('').should.eql('');
     });
+
+    it('should parse github archive url', function () {
+      giturl.parse('http://github.com/component/emitter/archive/1.0.1.tar.gz')
+        .should.equal('https://github.com/component/emitter');
+      giturl.parse('http://github.com/emitter/archive/1.0.1.tar.gz')
+        .should.equal('https://github.com/emitter/archive');
+      giturl.parse('http://github.com/emitter/')
+        .should.equal('https://github.com/emitter/');
+    });
+
+    it('should parse gist url', function () {
+      giturl.parse('https://gist.github.com/fengmk2/10453258')
+        .should.equal('https://gist.github.com/fengmk2/10453258');
+      giturl.parse('http://gist.github.com/fengmk2/10453258')
+        .should.equal('https://gist.github.com/fengmk2/10453258');
+      giturl.parse('http://gist.github.com/10453258.git')
+        .should.equal('https://gist.github.com/10453258');
+    });
   });
 });
