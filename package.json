@@ -1,6 +1,6 @@
 {
   "name": "giturl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Transfer git url to web url",
   "main": "index.js",
   "scripts": {
