@@ -27,7 +27,7 @@ var giturl = require('giturl');
 giturl.parse('git://gitlab.com/edp/logger.git');
 // => http://gitlab.com/edp/logger
 
-giturl.parse('git@gitlab.alibaba-inc.com:edp/logger.git');
+giturl.parse('git@gitlab.com:edp/logger.git');
 // => http://gitlab.com/edp/logger
 
 giturl.parse('git://github.com/treygriffith/cellar.git');
