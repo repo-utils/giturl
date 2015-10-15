@@ -1,4 +1,11 @@
 
+1.0.0 / 2015-10-15
+==================
+
+ * chore: update travis config
+ * fix: parse url that start with git+https://
+ * ignore 0.8 on travis ci
+
 0.0.3 / 2014-04-24
 ==================
 
