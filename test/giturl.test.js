@@ -26,6 +26,7 @@ describe('giturl.test.js', function () {
       giturl.parse('https://github.com/banchee/tranquil.git').should.equal('https://github.com/banchee/tranquil');
       giturl.parse('https://github.com/banchee/tranquil').should.equal('https://github.com/banchee/tranquil');
       giturl.parse('http://github.com/banchee/tranquil.git').should.equal('https://github.com/banchee/tranquil');
+      giturl.parse('git+https://github.com/banchee/tranquil.git').should.equal('https://github.com/banchee/tranquil');
       giturl.parse('github.com/banchee/tranquil.git').should.equal('https://github.com/banchee/tranquil');
       giturl.parse('https://jpillora@github.com/banchee/tranquil.git').should.equal('https://github.com/banchee/tranquil');
       giturl.parse('git@github.com:cnpm/cnpm.git').should.equal('https://github.com/cnpm/cnpm');
