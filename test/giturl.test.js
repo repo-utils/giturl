@@ -34,6 +34,7 @@ describe('giturl.test.js', function () {
       giturl.parse('git@github.com:cnpm/cnpm').should.equal('https://github.com/cnpm/cnpm');
       giturl.parse('git@gitcafe.com:fengmk2/cnpm.git').should.equal('https://gitcafe.com/fengmk2/cnpm');
       giturl.parse('git@gist.github.com:3135914.git').should.equal('https://gist.github.com/3135914');
+      giturl.parse('git://gitlab.com/foo/bar/repo.git').should.equal('http://gitlab.com/foo/bar/repo');
     });
 
     it('should parse not git url', function () {
