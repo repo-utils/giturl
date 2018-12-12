@@ -24,7 +24,7 @@
     "cov": "*",
     "coveralls": "*",
     "jshint": "*",
-    "mocha": "*",
+    "mocha": "2",
     "mocha-lcov-reporter": "*",
     "should": "3.3.1",
     "travis-cov": "*"
