@@ -1,4 +1,10 @@
 
+1.0.1 / 2018-12-12
+==================
+
+**fixes**
+  * [[`17a90af`](http://github.com/repo-utils/giturl/commit/17a90af15e48b585ef503467d4a4f80c3e003ebf)] - fix: support multiple directory (#11) (Haoliang Gao <<sakura9515@gmail.com>>)
+
 1.0.0 / 2015-10-15
 ==================
 

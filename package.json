@@ -1,6 +1,6 @@
 {
   "name": "giturl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transfer git url to web url",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,7 @@
       "threshold": 100
     }
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "autod": "*",
     "blanket": "*",
@@ -40,7 +38,11 @@
     "email": "fengmk2@gmail.com"
   },
   "keywords": [
-    "giturl", "git", "github", "gitlab", "url"
+    "giturl",
+    "git",
+    "github",
+    "gitlab",
+    "url"
   ],
   "engines": {
     "node": ">= 0.10.0"
