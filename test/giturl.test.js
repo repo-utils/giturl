@@ -35,6 +35,9 @@ describe('giturl.test.js', function () {
       giturl.parse('git@github.com:cnpm/cnpm').should.equal('https://github.com/cnpm/cnpm');
       giturl.parse('git@gitcafe.com:fengmk2/cnpm.git').should.equal('https://gitcafe.com/fengmk2/cnpm');
       giturl.parse('git@gist.github.com:3135914.git').should.equal('https://gist.github.com/3135914');
+      giturl.parse('git@gist.github.com:3135.git').should.equal('https://gist.github.com/3135');
+      giturl.parse('git@gitlab.com:65535/logger.git').should.equal('http://gitlab.com:65535/logger');
+      giturl.parse('git@gitlab.com:65536/logger.git').should.equal('http://gitlab.com/65536/logger');
     });
 
     it('should parse not git url', function () {
