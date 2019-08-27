@@ -23,6 +23,7 @@ describe('giturl.test.js', function () {
       giturl.parse('git://gitlab.com/edp/logger.git').should.equal('http://gitlab.com/edp/logger');
       giturl.parse('git@gitlab.com:edp/logger.git').should.equal('http://gitlab.com/edp/logger');
       giturl.parse('git://github.com/treygriffith/cellar.git').should.equal('https://github.com/treygriffith/cellar');
+      giturl.parse('git@gitlab.xxx.com:frontend/arch/xxx.git').should.equal('http://gitlab.xxx.com/frontend/arch/xxx');
       giturl.parse('https://github.com/banchee/tranquil.git').should.equal('https://github.com/banchee/tranquil');
       giturl.parse('https://github.com/banchee/tranquil').should.equal('https://github.com/banchee/tranquil');
       giturl.parse('http://github.com/banchee/tranquil.git').should.equal('https://github.com/banchee/tranquil');
