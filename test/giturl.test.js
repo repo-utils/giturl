@@ -39,6 +39,7 @@ describe('giturl.test.js', function () {
 
     it('should parse not git url', function () {
       giturl.parse('http://bauer-information-technology.com/').should.eql('http://bauer-information-technology.com/');
+      giturl.parse('https://bauer-information-technology.com/foo/bar').should.equal('https://bauer-information-technology.com/foo/bar');
       giturl.parse('').should.eql('');
     });
 
