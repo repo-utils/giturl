@@ -59,5 +59,11 @@ describe('giturl.test.js', function () {
       giturl.parse('http://gist.github.com/10453258.git')
         .should.equal('https://gist.github.com/10453258');
     });
+
+    it('should parse protocol', function () {
+      giturl.parse('http://git.foo.com/foo/bar').should.equal('http://git.foo.com/foo/bar');
+      giturl.parse('https://git.foo.com/foo/bar').should.equal('https://git.foo.com/foo/bar');
+      giturl.parse('git://git.foo.com/foo/bar.git').should.equal('http://git.foo.com/foo/bar');
+    });
   });
 });
