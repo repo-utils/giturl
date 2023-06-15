@@ -16,7 +16,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "autod": "*",
     "blanket": "*",
     "contributors": "*",
     "cov": "*",
@@ -34,8 +33,7 @@
     "web": "https://github.com/repo-utils/giturl"
   },
   "bugs": {
-    "url": "https://github.com/repo-utils/giturl/issues",
-    "email": "fengmk2@gmail.com"
+    "url": "https://github.com/repo-utils/giturl/issues"
   },
   "keywords": [
     "giturl",
@@ -47,6 +45,6 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)",
+  "author": "fengmk2 <fengmk2@gmail.com> (http://github.com/fengmk2)",
   "license": "MIT"
 }
