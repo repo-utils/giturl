@@ -1,4 +1,14 @@
 
+1.0.2 / 2023-06-15
+==================
+
+**fixes**
+  * [[`3ba325d`](http://github.com/repo-utils/giturl/commit/3ba325d7cd56ab0a3e037edf2e91398ccbfc996b)] - fix: use origin http protocol (#16) (Haoliang Gao <<sakura9515@gmail.com>>)
+
+**others**
+  * [[`89c8cba`](http://github.com/repo-utils/giturl/commit/89c8cba9fbd98e73d9d889700a5e5e4c5ae56b78)] - test: run test on github ci (#17) (fengmk2 <<fengmk2@gmail.com>>)
+  * [[`be30f17`](http://github.com/repo-utils/giturl/commit/be30f17bf780492b75502d470f440d1de2a9e28f)] - update https://registry.npm.taobao.org to https://registry.npmmirror.com (#15) (NPM Mirror Bot <<99484857+npmmirror@users.noreply.github.com>>)
+
 1.0.1 / 2018-12-12
 ==================
 

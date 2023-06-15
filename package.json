@@ -1,20 +1,16 @@
 {
   "name": "giturl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Transfer git url to web url",
   "main": "index.js",
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "scripts": {
     "test": "mocha test/*.test.js",
     "ci": "c8 -r text -r lcov npm test",
     "contributor": "git-contributor"
-  },
-  "config": {
-    "blanket": {
-      "pattern": "giturl/lib"
-    },
-    "travis-cov": {
-      "threshold": 100
-    }
   },
   "dependencies": {},
   "devDependencies": {
