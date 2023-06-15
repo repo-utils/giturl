@@ -4,7 +4,8 @@
   "description": "Transfer git url to web url",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*.test.js"
+    "test": "mocha test/*.test.js",
+    "ci": "c8 -r text -r lcov npm test"
   },
   "config": {
     "blanket": {
@@ -16,15 +17,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "blanket": "*",
+    "c8": "^8.0.0",
     "contributors": "*",
-    "cov": "*",
-    "coveralls": "*",
     "jshint": "*",
-    "mocha": "2",
-    "mocha-lcov-reporter": "*",
-    "should": "3.3.1",
-    "travis-cov": "*"
+    "mocha": "^10.2.0",
+    "should": "3.3.1"
   },
   "homepage": "https://github.com/repo-utils/giturl",
   "repository": {
