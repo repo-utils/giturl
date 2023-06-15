@@ -1,11 +1,6 @@
-giturl
-=======
+# giturl
 
-[![Build Status](https://secure.travis-ci.org/repo-utils/giturl.png)](http://travis-ci.org/repo-utils/giturl)
-
-[![Coverage Status](https://coveralls.io/repos/repo-utils/giturl/badge.png)](https://coveralls.io/r/repo-utils/giturl)
-
-[![Dependency Status](https://gemnasium.com/repo-utils/giturl.png)](https://gemnasium.com/repo-utils/giturl)
+[![CI](https://github.com/repo-utils/giturl/actions/workflows/nodejs.yml/badge.svg)](https://github.com/repo-utils/giturl/actions/workflows/nodejs.yml)
 
 [![NPM](https://nodei.co/npm/giturl.png?downloads=true&stars=true)](https://nodei.co/npm/giturl/)
 
@@ -16,7 +11,7 @@ Transfer git url to web url.
 ## Install
 
 ```bash
-$ npm install giturl
+npm install giturl
 ```
 
 ## Usage
@@ -53,7 +48,7 @@ giturl.parse('http://github.com/component/emitter/archive/1.0.1.tar.gz')
 
 (The MIT License)
 
-Copyright (c) 2014 fengmk2 &lt;fengmk2@gmail.com&gt; and other contributors
+Copyright (c) 2014 fengmk2 &lt;<fengmk2@gmail.com>&gt; and other contributors
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -73,3 +68,15 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+<!-- GITCONTRIBUTOR_START -->
+
+## Contributors
+
+|[<img src="https://avatars.githubusercontent.com/u/156269?v=4" width="100px;"/><br/><sub><b>fengmk2</b></sub>](https://github.com/fengmk2)<br/>|[<img src="https://avatars.githubusercontent.com/u/360661?v=4" width="100px;"/><br/><sub><b>popomore</b></sub>](https://github.com/popomore)<br/>|[<img src="https://avatars.githubusercontent.com/u/99484857?v=4" width="100px;"/><br/><sub><b>npmmirror</b></sub>](https://github.com/npmmirror)<br/>|
+| :---: | :---: | :---: |
+
+
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Thu Jun 15 2023 08:58:20 GMT+0800`.
+
+<!-- GITCONTRIBUTOR_END -->

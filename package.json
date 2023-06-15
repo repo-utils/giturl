@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test/*.test.js",
-    "ci": "c8 -r text -r lcov npm test"
+    "ci": "c8 -r text -r lcov npm test",
+    "contributor": "git-contributor"
   },
   "config": {
     "blanket": {
@@ -18,7 +19,7 @@
   "dependencies": {},
   "devDependencies": {
     "c8": "^8.0.0",
-    "contributors": "*",
+    "git-contributor": "^2.1.5",
     "jshint": "*",
     "mocha": "^10.2.0",
     "should": "3.3.1"
