@@ -4,7 +4,9 @@
   "description": "Transfer git url to web url",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*.test.js"
+    "test": "mocha test/*.test.js",
+    "ci": "c8 -r text -r lcov npm test",
+    "contributor": "git-contributor"
   },
   "config": {
     "blanket": {
@@ -16,16 +18,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "autod": "*",
-    "blanket": "*",
-    "contributors": "*",
-    "cov": "*",
-    "coveralls": "*",
+    "c8": "^8.0.0",
+    "git-contributor": "^2.1.5",
     "jshint": "*",
-    "mocha": "2",
-    "mocha-lcov-reporter": "*",
-    "should": "3.3.1",
-    "travis-cov": "*"
+    "mocha": "^10.2.0",
+    "should": "3.3.1"
   },
   "homepage": "https://github.com/repo-utils/giturl",
   "repository": {
@@ -34,8 +31,7 @@
     "web": "https://github.com/repo-utils/giturl"
   },
   "bugs": {
-    "url": "https://github.com/repo-utils/giturl/issues",
-    "email": "fengmk2@gmail.com"
+    "url": "https://github.com/repo-utils/giturl/issues"
   },
   "keywords": [
     "giturl",
@@ -47,6 +43,6 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)",
+  "author": "fengmk2 <fengmk2@gmail.com> (http://github.com/fengmk2)",
   "license": "MIT"
 }
