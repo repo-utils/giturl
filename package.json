@@ -23,8 +23,7 @@
   "homepage": "https://github.com/repo-utils/giturl",
   "repository": {
     "type": "git",
-    "url": "git://github.com/repo-utils/giturl.git",
-    "web": "https://github.com/repo-utils/giturl"
+    "url": "git://github.com/repo-utils/giturl.git"
   },
   "bugs": {
     "url": "https://github.com/repo-utils/giturl/issues"
@@ -37,7 +36,7 @@
     "url"
   ],
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 14.17.0"
   },
   "author": "fengmk2 <fengmk2@gmail.com> (http://github.com/fengmk2)",
   "license": "MIT"
