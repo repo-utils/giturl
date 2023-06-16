@@ -1,4 +1,13 @@
 
+1.0.3 / 2023-06-17
+==================
+
+**fixes**
+  * [[`f399d2d`](http://github.com/repo-utils/giturl/commit/f399d2df3ef9d0d20080d04e9f0945319c5957dc)] - fix: revert 1.0.2 (fengmk2 <<fengmk2@gmail.com>>)
+
+**others**
+  * [[`be30f17`](http://github.com/repo-utils/giturl/commit/be30f17bf780492b75502d470f440d1de2a9e28f)] - update https://registry.npm.taobao.org to https://registry.npmmirror.com (#15) (NPM Mirror Bot <<99484857+npmmirror@users.noreply.github.com>>)
+
 1.0.1 / 2018-12-12
 ==================
 
