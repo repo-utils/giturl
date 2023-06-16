@@ -1,4 +1,10 @@
 
+2.0.0 / 2023-06-17
+==================
+
+**features**
+  * [[`df78450`](http://github.com/repo-utils/giturl/commit/df784508c213ff7caccf3c6ea99c8ea979e3dcc3)] - feat: drop Node.js < 14 support (fengmk2 <<fengmk2@gmail.com>>)
+
 1.0.2 / 2023-06-15
 ==================
 
